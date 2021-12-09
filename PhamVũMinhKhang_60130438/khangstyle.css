@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(235, 247, 252); 
+}
+.khang_topline{
+    background-color: rgb(152, 205, 250);
+    height: 50px;
+    padding: 10px;
+    border-bottom: solid 1px white;
+}
+.khang_title{
+    width: 1370px;
+    margin: 0 auto;
+}
+.khang_col1{
+    float: left;
+    width: 400px;
+    height: auto;
+    text-align: left;
+}
+.khang_col1 a{
+    text-decoration: none;
+}
+.khang_col1 h3{
+    padding: 5px;
+    color: grey;
+}
+.khang_col2{
+    text-align: right;
+    padding: 5px;
+    float: right;
+    width: 400px;
+    height: auto;
+}
+#khang_menu {
+    list-style: none;
+}
+#khang_menu li {
+    display: inline-block; /*nội dung nằm trên 1 dòng*/
+    padding-right: 10px;
+}
+#khang_menu li a{
+    text-decoration: none;
+    color: grey;
+}
+#khang_menu li a:hover{
+    color: blue;
+}
+#khang_menu li:hover{
+    background-color: white;
+    border-radius: 5px;
+}
+
+#khang_heard{
+    height: 250px;
+    background-color: rgb(210, 238, 239);
+    padding: 20px;
+}
+#khang_logo{
+    
+    padding: 20px;
+    list-style: none;
+  
+}
+.khang_logo1{
+    float: left;
+}
+
+#khang_menu2 {
+    border-top: solid 1px red;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(34, 87, 167);
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 5px ;
+}
+#khang_menu2 li p{
+    padding-right: 280px;
+}
+#khang_menu2 li{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+#khang_menu2  li ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    max-width: 800px;
+    box-shadow: 0px 8px 16px black;
+    z-index: 200;
+    margin-left: 180px;
+    width: 300px;
+}
+
+
+#khang_menu2 li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    max-width: 270px;
+    box-shadow: 0px 8px 16px black;
+    z-index: 200;
+    
+}
+#khang_menu2 li:hover ul{
+    display: block;
+    
+}
+
+#khang_menu2 li a{
+    text-decoration: none;
+    padding-left: 8px;
+    color: rgb(156, 149, 149) ;
+    font-size: 20px;
+}
+#khang_menu2 li a:hover{
+    color: blue;
+}
+.clear{
+    clear: both;
+}
+.khang_container{
+    width: 1200px;   
+    margin: 0 auto
+}
+.khang_center{
+    padding: 10px;
+}
+.khang_center_col1,.khang_center_col2{
+    float: left;
+}
+.khang_center_col2{
+   background-color: white;
+    border: solid 2px;
+    text-align: left;
+    padding: 5px;
+    margin-left: 30px;
+}
+.khang_article{
+    
+    width: 100%;
+}
+.khang_article h3{
+    font-size: 25px;
+    color: black;
+    
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgb(20, 145, 167);
+}
+
+
+
+
+
